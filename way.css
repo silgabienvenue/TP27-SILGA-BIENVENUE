@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-slider-thumb{
+    background-color: whitesmoke;
+}
+/*  */
+section{
+    margin-top: 50px;
+}
+header{
+    background-color:rgb(53, 59, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+}
+header .logo a{
+    font-size: 25px;
+    color: olivedrab;
+    text-decoration: 0;
+}
+header .logo a span{
+    color:rgb(203, 74, 27);
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    margin:0 15px;
+    list-style: none;
+}
+.menu li a{
+color: blanchedalmond;
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.btn{
+   color:blanchedalmond;
+   font-size: 20px;
+   background-color:orangered ;
+   border: 2px solid olivedrab;
+   padding: 5px 20px;
+   transition: 0.5s;
+   text-decoration: none;
+  
+}
+.btn:hover {
+    background-color:olivedrab ;
+    color: white;
+    font-weight: bold;
+}
+/* festival */
+.festival{
+    justify-content: center;
+    align-items: center;
+}
+.festival .card-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.festival .card-group .card{
+   border: 2px solid gray;
+   margin: 10px;
+}
+.festival .card-group .card .card-body{
+    width: 350px;
+    font-size: 20px;
+}
+.festival .card-group .card .card-body h5{
+    font-size: 25px;
+}
+.festival .card-group .card .card-body button, .btn-now{
+    font-size: 22px;
+    padding: 20px;
+    color: white;
+    background-color: olivedrab;
+    cursor: pointer;
+    border: 2px solid orangered;
+}
+.festival .card-group img{
+    width: 350px;
+    height:250px;
+    border: 2px solid gray;
+    margin: 1px;
+}
+.festival .btn-now{
+/* justify-content: center;
+align-items: center;
+text-align: center; */
+margin-left: 600px;
+
+}
